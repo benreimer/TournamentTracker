@@ -1,0 +1,29 @@
+Requirements
+============
+
+1. Tracks games played and their outcome.
+2. Mulitple competitors play in the tournament.
+3. Creates a tournament plan (whow play in what order).
+4. Schedule games.
+5. A single loss eliminates a player.
+6. The last player standing is the winner.
+
+
+Questions
+=========
+
+1. How many players will the tournament handle? Is it variable?  A: The applicaton should 
+2. If a tournament has less than the full complement of players, how do we handle it?
+3. Should the order of who plays each other be random or ordered by input order?
+4. Should we schedule the game or are they just played whenever?
+5. If the games are scheduled, how does the system know when the schedule the games for?
+6. If the games are played whever, can a game from the second round be played before the first round is complete?
+7. Does the system need to store a score of some kind or just who won?
+8. What type of front-end should this sytem have (form, webpage, app, etc.)
+9. Where will the data be stored?
+10. Will this system ahdn entry fees, prizes or other payouts?
+11. What type of reporting is needed?
+12. Who can fill the results of a game?
+13. Are there varying level of access?
+14. Should this sytem contact users about upcoming games?
+15. Is each player on their own or can teams use this tournament tracker?
