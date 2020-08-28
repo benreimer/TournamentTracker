@@ -1,0 +1,35 @@
+Mapping the Data - from lesson 3
+
+Teamn
+ - TeamMembers (List<Person>)
+ - TeamName(string)
+ 
+ Person
+ - FirstName (string)
+ - LastName (string)
+ - EmailAddress (string)
+ - CellphoneNumber (string)
+ 
+ Tournament
+ - TrounamentName (string)
+ - Description (string)
+ - EntryFee (decimal, nullable?)
+ - EnteredTeams (List<Team>)
+ - Prizes (List<Prize>)
+ - Rounds (List<List<Matchup>>)
+ 
+ Prize
+ - PlaceNumber (int)
+ - PlaceName (string)
+ - PrizeAMount (decimal)
+ - PrizePercentage (double)
+ 
+ Matchup
+ - Entries (List<MatchupEntry>)
+ - Winner (Team)
+ - MatchupRound (int)
+ 
+ MatchupEntry
+ - TeamCompeting (Team)
+ - Score (double)
+ - ParentMatchup (Matchup)
