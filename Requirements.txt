@@ -27,3 +27,22 @@ Questions
 13. Are there varying level of access?  A: No the only method of varied access is if the competitors are not allowed into the application and instead,, they do everything via email.
 14. Should this sytem contact users about upcoming games? A: Yes, the system should email users that they are due to play ina  round as well as who they are scheduled to play.
 15. Is each player on their own or can teams use this tournament tracker?  A:  The tournament tracker should be able to handle the additiona of other members. All members should treated as equels in that they all get tournament emails. Teams should also be able to name their team.  Note: Again, this was the original requirement.  I would like to set one person as the point of contact and that person will be in charge of team maintenance functions.....adding players, team name, setting up team member information, etc. They would have a higher level of access than the other members of the team. See questions 12 and 13 regarding application access.
+
+Big Picture Design
+===================
+
+Structure: Windows Forms application and C# class library
+Data: SQL and/or Text File
+Users: One at a time on one application
+
+Key Concepts:
+ - Email
+ - SQL
+ - Custom Events
+ - Error Handling
+ - Interfaces
+ - Random Ordering
+ - Texting alerts (possible upgrade)
+ 
+ 
+
