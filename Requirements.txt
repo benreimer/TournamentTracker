@@ -12,18 +12,18 @@ Requirements
 Questions
 =========
 
-1. How many players will the tournament handle? Is it variable?  A: The applicaton should 
-2. If a tournament has less than the full complement of players, how do we handle it?
-3. Should the order of who plays each other be random or ordered by input order?
-4. Should we schedule the game or are they just played whenever?
-5. If the games are scheduled, how does the system know when the schedule the games for?
-6. If the games are played whever, can a game from the second round be played before the first round is complete?
-7. Does the system need to store a score of some kind or just who won?
-8. What type of front-end should this sytem have (form, webpage, app, etc.)
-9. Where will the data be stored?
-10. Will this system ahdn entry fees, prizes or other payouts?
-11. What type of reporting is needed?
-12. Who can fill the results of a game?
-13. Are there varying level of access?
-14. Should this sytem contact users about upcoming games?
-15. Is each player on their own or can teams use this tournament tracker?
+1. How many players will the tournament handle? Is it variable?  A: The applicaton should be able to handle a variable number of players in a tournament.
+2. If a tournament has less than the full complement of players, how do we handle it?  A: Add a first round bye for any player over a multiple of 2 (4,8,16,32)
+3. Should the order of who plays each other be random or ordered by input order? A: the ordering of the tournament should be random.
+4. Should we schedule the game or are they just played whenever? A: The games should be played in whatever order they want to play.
+5. If the games are scheduled, how does the system know when the schedule the games for?  A: They are not scheduled.
+6. If the games are played whever, can a game from the second round be played before the first round is complete?  A: No. Each round should be completed before the next round is displayed.
+7. Does the system need to store a score of some kind or just who won?  A: Storing a simple score would be nice. Just a number for each player.
+8. What type of front-end should this sytem have (form, webpage, app, etc.)  A: The system should be a desktop app for now but down the road we might want to turn this into an app or website.
+9. Where will the data be stored?  A: Ideally the data should be saved in SQL but please put in an option to store to a text file instead.
+10. Will this system ahdn entry fees, prizes or other payouts?  A: Yes. The tournament should have the option of charging an entry fee. Prizes should also be an option, where the tournament administrator chooses how much money to award a variable number of places. The total cash amount should not exceed the income from the tournament. A percentage-based system would also be nice to specify.
+11. What type of reporting is needed? A: A simple report specifying the outcome of the games per round as well as a report that specified who won and how much they won. These can be displayed ona form or they can be emailed to a tournament competitors and the administrator.
+12. Who can fill the results of a game? A: Anyone using the applicatoin should be able to fill in the game scores.  Note: This is the original information from the course, personally I would like to create a login system of some kind and only allow certain users to be allowed to update this information. That would apply to the following question as well, I will be creating multiple levels of access.
+13. Are there varying level of access?  A: No the only method of varied access is if the competitors are not allowed into the application and instead,, they do everything via email.
+14. Should this sytem contact users about upcoming games? A: Yes, the system should email users that they are due to play ina  round as well as who they are scheduled to play.
+15. Is each player on their own or can teams use this tournament tracker?  A:  The tournament tracker should be able to handle the additiona of other members. All members should treated as equels in that they all get tournament emails. Teams should also be able to name their team.  Note: Again, this was the original requirement.  I would like to set one person as the point of contact and that person will be in charge of team maintenance functions.....adding players, team name, setting up team member information, etc. They would have a higher level of access than the other members of the team. See questions 12 and 13 regarding application access.
